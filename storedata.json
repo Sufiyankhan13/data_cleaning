@@ -1,0 +1,95 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD-1001",
+      "customer": {
+        "name": "John Smith",
+        "email": "john.smith@gmail.com",
+        "age": "29"
+      },
+      "items": [
+        {
+          "product_id": "P001",
+          "name": "Wireless Earbuds",
+          "category": "Electronics",
+          "price": "29.99",
+          "quantity": 2,
+          "discount": "10%"
+        },
+        {
+          "product_id": "P002",
+          "name": "Phone Case",
+          "category": "accessories",
+          "price": 9.99,
+          "quantity": "1",
+          "discount": null
+        }
+      ],
+      "order_date": "2024-03-15",
+      "status": "delivered",
+      "total": "69.97"
+    },
+    {
+      "order_id": "ORD-1002",
+      "customer": {
+        "name": "sarah johnson",
+        "email": "SARAH.J@YAHOO.COM",
+        "age": null
+      },
+      "items": [
+        {
+          "product_id": "p003",
+          "name": "USB-C Cable  ",
+          "category": "Electronics",
+          "price": -5.99,
+          "quantity": 0,
+          "discount": "0%"
+        }
+      ],
+      "order_date": "15/03/2024",
+      "status": "Pending",
+      "total": null
+    },
+    {
+      "order_id": "ORD-1003",
+      "customer": {
+        "name": "  Mike Lee  ",
+        "email": "mike@",
+        "age": 35
+      },
+      "items": [
+        {
+          "product_id": "P004",
+          "name": "Laptop Stand",
+          "category": "ELECTRONICS",
+          "price": "49.99",
+          "quantity": 1,
+          "discount": "5%"
+        },
+        {
+          "product_id": "P004",
+          "name": "Laptop Stand",
+          "category": "ELECTRONICS",
+          "price": "49.99",
+          "quantity": 1,
+          "discount": "5%"
+        }
+      ],
+      "order_date": "2024-03-16",
+      "status": "shipped",
+      "total": "94.98"
+    },
+    {
+      "order_id": "ORD-1001",
+      "customer": {
+        "name": "Alice Brown",
+        "email": "alice.brown@gmail.com",
+        "age": 200
+      },
+      "items": [],
+      "order_date": "2024-03-17",
+      "status": "DELIVERED",
+      "total": 0
+    }
+  ]
+}

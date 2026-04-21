@@ -1,0 +1,75 @@
+{
+    "orders": [
+        {
+            "order_id": "ORD-1001",
+            "customer": {
+                "name": "John Smith",
+                "email": "john.smith@gmail.com",
+                "age": 29
+            },
+            "items": [
+                {
+                    "product_id": "P001",
+                    "name": "Wireless Earbuds",
+                    "category": "Electronics",
+                    "price": 29.99,
+                    "quantity": 2,
+                    "discount": "10%"
+                },
+                {
+                    "product_id": "P002",
+                    "name": "Phone Case",
+                    "category": "Accessories",
+                    "price": 9.99,
+                    "quantity": 1,
+                    "discount": null
+                }
+            ],
+            "order_date": "2024-03-15",
+            "status": "delivered",
+            "total": "69.97"
+        },
+        {
+            "order_id": "ORD-1002",
+            "customer": {
+                "name": "Sarah Johnson",
+                "email": "sarah.j@yahoo.com",
+                "age": null
+            },
+            "items": [
+                {
+                    "product_id": "P003",
+                    "name": "Usb-C Cable",
+                    "category": "Electronics",
+                    "price": null,
+                    "quantity": null,
+                    "discount": "0%"
+                }
+            ],
+            "order_date": "15/03/2024",
+            "status": "Pending",
+            "total": null
+        },
+        {
+            "order_id": "ORD-1003",
+            "customer": {
+                "name": "Mike Lee",
+                "email": "mike@",
+                "age": 35
+            },
+            "items": [
+                {
+                    "product_id": "P004",
+                    "name": "Laptop Stand",
+                    "category": "Electronics",
+                    "price": 49.99,
+                    "quantity": 1,
+                    "discount": "5%"
+                }
+            ],
+            "order_date": "2024-03-16",
+            "status": "shipped",
+            "total": "94.98"
+        }
+    ]
+}
